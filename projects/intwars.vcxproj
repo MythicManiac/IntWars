@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\intwars\AIMesh.cpp" />
+    <ClCompile Include="..\src\intwars\Buff.cpp" />
+    <ClCompile Include="..\src\intwars\Champion.cpp" />
+    <ClCompile Include="..\src\intwars\CollisionHandler.cpp" />
+    <ClCompile Include="..\src\intwars\Config.cpp" />
+    <ClCompile Include="..\src\intwars\Fountain.cpp" />
+    <ClCompile Include="..\src\intwars\Game.cpp" />
+    <ClCompile Include="..\src\intwars\Handlers.cpp" />
+    <ClCompile Include="..\src\intwars\Inventory.cpp" />
+    <ClCompile Include="..\src\intwars\Item.cpp" />
+    <ClCompile Include="..\src\intwars\ItemManager.cpp" />
+    <ClCompile Include="..\src\intwars\Logger.cpp" />
+    <ClCompile Include="..\src\intwars\LuaChampion.cpp" />
+    <ClCompile Include="..\src\intwars\LuaGame.cpp" />
+    <ClCompile Include="..\src\intwars\LuaItem.cpp" />
+    <ClCompile Include="..\src\intwars\LuaScript.cpp" />
+    <ClCompile Include="..\src\intwars\LuaUnit.cpp" />
+    <ClCompile Include="..\src\intwars\main.cpp" />
+    <ClCompile Include="..\src\intwars\Map.cpp" />
+    <ClCompile Include="..\src\intwars\Minion.cpp" />
+    <ClCompile Include="..\src\intwars\Notifiers.cpp" />
+    <ClCompile Include="..\src\intwars\Object.cpp" />
+    <ClCompile Include="..\src\intwars\PacketHandler.cpp" />
+    <ClCompile Include="..\src\intwars\Packets.cpp" />
+    <ClCompile Include="..\src\intwars\Pathfinder.cpp" />
+    <ClCompile Include="..\src\intwars\Projectile.cpp" />
+    <ClCompile Include="..\src\intwars\Spell.cpp" />
+    <ClCompile Include="..\src\intwars\Stats.cpp" />
+    <ClCompile Include="..\src\intwars\SummonersRift.cpp" />
+    <ClCompile Include="..\src\intwars\Target.cpp" />
+    <ClCompile Include="..\src\intwars\Turret.cpp" />
+    <ClCompile Include="..\src\intwars\Unit.cpp" />
+    <ClCompile Include="..\src\intwars\Vector2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\intwars\AIMesh.h" />
+    <ClInclude Include="..\include\intwars\Buff.h" />
+    <ClInclude Include="..\include\intwars\Buffer.h" />
+    <ClInclude Include="..\include\intwars\Champion.h" />
+    <ClInclude Include="..\include\intwars\ChampionFactory.h" />
+    <ClInclude Include="..\include\intwars\ChatBox.h" />
+    <ClInclude Include="..\include\intwars\Client.h" />
+    <ClInclude Include="..\include\intwars\CollisionHandler.h" />
+    <ClInclude Include="..\include\intwars\common.h" />
+    <ClInclude Include="..\include\intwars\Config.h" />
+    <ClInclude Include="..\include\intwars\Fountain.h" />
+    <ClInclude Include="..\include\intwars\Game.h" />
+    <ClInclude Include="..\include\intwars\Inventory.h" />
+    <ClInclude Include="..\include\intwars\Item.h" />
+    <ClInclude Include="..\include\intwars\ItemManager.h" />
+    <ClInclude Include="..\include\intwars\LevelProp.h" />
+    <ClInclude Include="..\include\intwars\Logger.h" />
+    <ClInclude Include="..\include\intwars\LuaScript.h" />
+    <ClInclude Include="..\include\intwars\Map.h" />
+    <ClInclude Include="..\include\intwars\Minion.h" />
+    <ClInclude Include="..\include\intwars\MinionStats.h" />
+    <ClInclude Include="..\include\intwars\Object.h" />
+    <ClInclude Include="..\include\intwars\Packets.h" />
+    <ClInclude Include="..\include\intwars\Pathfinder.h" />
+    <ClInclude Include="..\include\intwars\Projectile.h" />
+    <ClInclude Include="..\include\intwars\Spell.h" />
+    <ClInclude Include="..\include\intwars\Stats.h" />
+    <ClInclude Include="..\include\intwars\stdafx.h" />
+    <ClInclude Include="..\include\intwars\SummonersRift.h" />
+    <ClInclude Include="..\include\intwars\Target.h" />
+    <ClInclude Include="..\include\intwars\Turret.h" />
+    <ClInclude Include="..\include\intwars\TurretStats.h" />
+    <ClInclude Include="..\include\intwars\Unit.h" />
+    <ClInclude Include="..\include\intwars\Vector2.h" />
+    <ClInclude Include="..\include\intwars\win\platforms-time.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{150C7138-D825-43AE-B7A8-D0165C436468}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>intwars</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)build\$(Configuration)_$(Platform)\$(ProjectName)\</IntDir>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)include\$(ProjectName);$(SolutionDir)include\sol;$(SolutionDir)include\lua;$(SolutionDir)include\raf;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)build\$(Configuration)_$(Platform)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+    <OutDir>$(SolutionDir)build\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(SolutionDir)build\$(Configuration)_$(Platform)\$(ProjectName)\</IntDir>
+    <IncludePath>$(SolutionDir)include;$(SolutionDir)include\$(ProjectName);$(SolutionDir)include\sol;$(SolutionDir)include\lua;$(SolutionDir)include\raf;$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+    <LibraryPath>$(SolutionDir)build\$(Configuration)_$(Platform)\;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64</LibraryPath>
+    <OutDir>$(SolutionDir)build\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;winmm.lib;intlib.lib;raf.lib;enet.lib;lua.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>
+      </FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
+      <SDLCheck>
+      </SDLCheck>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>
+      </EnableCOMDATFolding>
+      <OptimizeReferences>
+      </OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>ws2_32.lib;winmm.lib;intlib.lib;raf.lib;enet.lib;lua.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
